@@ -1,8 +1,8 @@
-package timekeeper.core.event;
+package timekeeper.core.timesheet;
 
 import java.util.List;
 
-import timekeeper.core.event.model.TimeSheet;
+import timekeeper.core.timesheet.model.TimeSheet;
 
 public interface ITimeSheetRepository {
 

@@ -1,22 +1,19 @@
-package timekeeper.core.event.model;
+package timekeeper.core.timesheet.model;
 
+import java.util.List;
 
-import java.util.Date;
-
-public class Event {
+public class TimeSheet {
 
     private String id;
     private String name;
     private String description;
-    private Date start;
-    private Date end;
+    private List<Event> events;
 
-    public Event(String id, String name, String description, Date start, Date end) {
+    public TimeSheet(String id, String name, String description, List<Event> events) {
         this.id = id;
         this.name = name;
         this.description = description;
-        this.start = start;
-        this.end = end;
+        this.events = events;
     }
 
     public String getId() {
@@ -31,11 +28,7 @@ public class Event {
         return description;
     }
 
-    public Date getStart() {
-        return start;
-    }
-
-    public Date getEnd() {
-        return end;
+    public List<Event> getEvents() {
+        return events;
     }
 }

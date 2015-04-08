@@ -1,9 +1,9 @@
-package timekeeper.core.event;
+package timekeeper.core.timesheet;
 
 
 import java.util.List;
 
-import timekeeper.core.event.model.Event;
+import timekeeper.core.timesheet.model.Event;
 
 public class TimeSheetRepositoryParam {
 

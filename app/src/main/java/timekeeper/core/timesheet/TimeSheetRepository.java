@@ -1,11 +1,11 @@
-package timekeeper.core.event;
+package timekeeper.core.timesheet;
 
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-import timekeeper.core.event.model.Event;
-import timekeeper.core.event.model.TimeSheet;
+import timekeeper.core.timesheet.model.Event;
+import timekeeper.core.timesheet.model.TimeSheet;
 
 public class TimeSheetRepository implements ITimeSheetRepository {
 
