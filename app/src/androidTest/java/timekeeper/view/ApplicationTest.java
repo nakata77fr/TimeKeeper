@@ -1,4 +1,4 @@
-package timekeeper.main;
+package timekeeper.view;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package timekeeper.core.timesheet.model;
+package timekeeper.core.model;
 
 
 import java.util.Date;

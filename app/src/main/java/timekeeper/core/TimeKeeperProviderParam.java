@@ -1,18 +1,18 @@
-package timekeeper.core.timesheet;
+package timekeeper.core;
 
 
 import java.util.List;
 
-import timekeeper.core.timesheet.model.Event;
+import timekeeper.core.model.Event;
 
-public class TimeSheetRepositoryParam {
+public class TimeKeeperProviderParam {
 
     private String id;
     private String name;
     private String description;
     private List<Event> events;
 
-    public TimeSheetRepositoryParam(String id, String name, String description, List<Event> events) {
+    public TimeKeeperProviderParam(String id, String name, String description, List<Event> events) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -56,7 +56,7 @@ public class TimeSheetRepositoryParam {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        TimeSheetRepositoryParam that = (TimeSheetRepositoryParam) o;
+        TimeKeeperProviderParam that = (TimeKeeperProviderParam) o;
 
         if (!description.equals(that.description)) return false;
         if (!events.equals(that.events)) return false;

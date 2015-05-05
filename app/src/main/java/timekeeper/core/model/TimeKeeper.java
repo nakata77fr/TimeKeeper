@@ -1,15 +1,15 @@
-package timekeeper.core.timesheet.model;
+package timekeeper.core.model;
 
 import java.util.List;
 
-public class TimeSheet {
+public class TimeKeeper {
 
     private String id;
     private String name;
     private String description;
     private List<Event> events;
 
-    public TimeSheet(String id, String name, String description, List<Event> events) {
+    public TimeKeeper(String id, String name, String description, List<Event> events) {
         this.id = id;
         this.name = name;
         this.description = description;

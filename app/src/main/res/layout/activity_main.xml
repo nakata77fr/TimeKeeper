@@ -3,61 +3,9 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/id_timesheetname_txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-    <EditText
-        android:id="@+id/id_timesheetdescription_txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-
-    <EditText
-        android:id="@+id/id_name_txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-    <EditText
-        android:id="@+id/id_description_txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-    <EditText
-        android:id="@+id/id_start_txt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-    <EditText
-        android:id="@+id/id_end_text"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textSize="50px"
-        android:editable="true"
-        />
-
-    <Button
-        android:id="@+id/id_insert_btn"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="@string/insert_event_btn"
-        />
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
