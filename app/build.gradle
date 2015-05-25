@@ -1,5 +1,4 @@
 apply plugin: 'com.android.application'
-apply plugin: 'spoon'
 
 android {
     compileSdkVersion 21
@@ -24,18 +23,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     // UNIT TESTING
     testCompile(
-            'junit:junit:4.11',
+            'junit:junit:4.12',
             'com.android.support:support-annotations:22.0.0',
             'com.squareup.assertj:assertj-android:1.0.0',
             'org.assertj:assertj-core:1.7.0',
             'org.mockito:mockito-core:1.9.5'
     )
-    testCompile('org.robolectric:robolectric:2.4') {
-        exclude group: 'commons-logging'
-        exclude group: 'org.apache.httpcomponents'
-    }
-    testCompile('com.android.support.test.espresso:espresso-contrib:2.0') {
-        exclude group: 'com.android.support', module: 'support-annotations'
-    }
 
 }
